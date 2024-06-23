@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo">
+            </div>
+            <div class="menu-icon">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Landlords</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>We rent your property</h1>
+            <p>Vel mattis integer pulvinar morbi quis amet eu. In nunc facilisis proin fermentum, consectetur cursus.</p>
+        </div>
+    </section>
+    
+    <section class="flexible-future">
+        <div class="image-grid">
+            <img src="Rectangle 225.png" alt="Image 1">
+            <img src="image 15.png" alt="Image 2">
+            <img src="image 14.png" alt="Image 3">
+            <img src="image 13.png" alt="Image 4">
+        </div>
+        <div class="text-content">
+            <h1>The future is flexible</h1>
+            <p>We believe in a world where finding a home is just click away.
+                Whether you’re selling your home, travelling for work or moving to a new city,
+                Just bring your bags, and we'll handle the rest.
+            </p>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature-header">
+            <h1>
+                Id aliquam molestie nunc quis turpis<br>
+                <span style="font-size: 1em;">imperdiet quis</span>
+            </h1>
+            <p>Euismod condimentum tempus quis nibh. Accumsan imperdiet non vulputate venenatis, lorem amet, purus <br> <span>amet, sagittis. Cum orci quam enim adipiscing interdum purus.</span></p>
+        </div>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Flexible living</h3>
+                <p>Stay as long or as little as you need with month-to-month contracts</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-couch"></i>
+                <h3>Move-in ready</h3>
+                <p>Ready to move in with everything you need</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wifi"></i>
+                <h3>High-speed Wi-Fi</h3>
+                <p>Best in class internet speeds suitable for working from home</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-comment-dots"></i>
+                <h3>24/7 support</h3>
+                <p>On hand team for any issues you have</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuIcon = document.querySelector('.menu-icon');
+            const navLinks = document.querySelector('.nav-links');
+    
+            menuIcon.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
